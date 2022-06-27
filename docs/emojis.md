@@ -1,5 +1,5 @@
 ---
-id: emoji reference
+id: emojis
 title: List of all standard emojis and there pretty slack names
 ---
 
