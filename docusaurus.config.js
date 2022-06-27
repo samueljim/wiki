@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Sam Wiki',
+  title: 'BNE Wiki',
   tagline: 'stuff that i know',
   url: 'https://wiki.bne.sh',
   baseUrl: '/',
@@ -45,28 +45,15 @@ module.exports = {
           ],
         },
         {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'Site',
+              to: 'https://bne.sh',
+            },
+            {
+              label: 'URL shorten',
+              to: 'https://bne.sh/create',
             },
             {
               label: 'GitHub',
@@ -75,7 +62,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} BNE, Inc.`,
+      copyright: `Copyright © ${new Date().getFullYear()} BNE`,
     },
   },
   presets: [
