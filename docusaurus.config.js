@@ -21,11 +21,6 @@ module.exports = {
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/samueljim/wiki',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
     footer: {
